@@ -1,0 +1,58 @@
+.container{
+    width: 500px;
+    height: 700px;
+    background-color: rgb(34, 33, 33);
+    align-items: center;
+    margin: auto;
+    margin-bottom: 80px;
+}
+.title{
+    color: white;
+    text-transform: capitalize;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 26px;
+    font-weight: bold;
+    text-shadow: 1px 1px 0px solid;
+    text-align: center;
+    padding-top: 40px;
+    
+    
+} 
+.image{
+    width: 80%;
+    height: 60%;
+    margin-left: 40px;
+    padding-top: 10px;  
+}
+.image{
+    width: 70%;
+    height: 45%;
+    margin-left: 69px;
+    padding-top: 10px;
+}
+.name{
+    padding-top: 14px;
+    color: white;
+    text-align: center;
+    font-size: 26px;
+    text-transform: capitalize;
+}
+.cont{
+    width: 200px;
+    height: 20px;
+}
+.textaccept{
+    padding-top: 80px;
+    padding-left: 30px;
+    display: flex;
+    font-size: 30px;
+
+}
+button {
+    margin-right: 20px; /* Add some spacing between buttons */
+    font-size: 26px;
+    text-transform: capitalize;
+  }
+  button:hover{
+    background-color: chartreuse;
+  }
