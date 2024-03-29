@@ -48,11 +48,32 @@
     font-size: 30px;
 
 }
-button {
+ #button1 {
     margin-right: 20px; /* Add some spacing between buttons */
     font-size: 26px;
     text-transform: capitalize;
+    background-color: green;
+    border-radius: 10px;
+    border: 0cm;
+
+
   }
-  button:hover{
-    background-color: chartreuse;
+   #button2 {
+    margin-right: 20px; /* Add some spacing between buttons */
+    font-size: 26px;
+    text-transform: capitalize;
+    background-color: red;
+    border-radius: 10px;
+    border: 0cm;
+  }
+  #button1:hover{
+    background-color:white !important;
+    transition: 40ms;
+    cursor: pointer;
+  }
+
+  #button2:hover{
+    background-color: white !important;
+    transition: 40ms;
+    cursor: pointer;
   }
